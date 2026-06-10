@@ -30,20 +30,9 @@ single `<style>` tag in `App.jsx`, so styling is not fragmented across component
 
 ```bash
 npm install
-cp .env.example .env      # point VITE_API_URL at your backend
 npm run dev               # http://localhost:5173
 ```
 
-Start the backend too (see the backend project) so the enquiry form and admin
-area have something to talk to.
-
-## A note on config and secrets
-
-`src/config.js` is **bundled into the browser** and visible to anyone. It holds
-only the API URL, endpoint paths, and public park info. The auth password, JWT
-secret, database location, and SMTP/Twilio API keys are **server-only** and live
-in the backend's `.env` (read by `backend/src/config.js`). Never copy those into
-the frontend.
 
 ## Editing park details
 
