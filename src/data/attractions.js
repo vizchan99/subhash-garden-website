@@ -144,19 +144,19 @@ export const ATTRACTION_BY_ID = Object.fromEntries(ATTRACTIONS.map((a) => [a.id,
 
 // Gallery shown on the home page. Replace each `src` with a real image later.
 export const HOME_GALLERY = [
-  { label: "Aerial view of the park", src: "src/img_1.jpg" },
+  { label: "Aerial view of the park", src: "/img_1.jpg" },
   { label: "Wave pool in action", src: "" },
   { label: "Slide tower", src: "" },
   { label: "Rain dance arena", src: "" },
-  { label: "Multistation fun", src: "src/data/img_2.jpg" },
+  { label: "Multistation fun", src: "/img_2.jpg" },
   { label: "Poolside relaxation", src: "" },
 ];
 
 // Auto-scrolling hero carousel images. Replace each `src` with a wide, high-res
 // photo (landscape works best behind the title).
 export const HERO_GALLERY = [
-  { label: "Splashing down the slides", src: "src/data/img_3.jpg" },
-  { label: "Waves rolling in", src: "src/data/img_1.jpg" },
-  { label: "Rain dance party", src: "src/data/img_4.jpg" },
-  { label: "Family day at the park", src: "src/data/img_6.jpg" },
+  { label: "Splashing down the slides", src: "/img_3.jpg" },
+  { label: "Waves rolling in", src: "/img_1.jpg" },
+  { label: "Rain dance party", src: "/img_4.jpg" },
+  { label: "Family day at the park", src: "/img_6.jpg" },
 ];
