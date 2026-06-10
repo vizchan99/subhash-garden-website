@@ -24,11 +24,11 @@ export const config = {
   park: {
     name: "Subhash Garden",
     tagline: "Where the city comes to make a splash.",
-    phone: "+1 555 010 2020",
-    whatsapp: "15550102020", // digits only, country code, no + or spaces
-    email: "hello@bluewavepark.com",
-    location: "Riverside Avenue, Plano, TX",
-    hours: "Open daily · 10:00 AM – 7:00 PM",
+    phone: "+91 9603 884444",
+    whatsapp: "9603884444", // digits only, country code, no + or spaces
+    email: "",
+    location: "Madanapalle Village, Makloor Mandal, Nizamabad",
+    hours: "Open daily · 10:00 AM – 6:00 PM",
   },
 };
 
