@@ -109,7 +109,7 @@ main{min-height:60vh}
 .detail-hero,.enquiry-hero{position:relative;padding:4.5rem 6vw 7rem;color:#fff;overflow:hidden;
   background:radial-gradient(120% 130% at 30% -20%,var(--bright),var(--ocean) 55%,var(--deep))}
 .detail-hero-inner{position:relative;z-index:2;max-width:720px;margin:0 auto;text-align:center}
-.detail-icon{display:inline-grid;place-items:center;width:62px;height:62px;border-radius:18px;background:rgba(255,255,255,.18);margin-bottom:1rem}
+.detail-icon{display:grid;place-items:center;width:62px;height:62px;border-radius:18px;background:rgba(255,255,255,.18);margin:0 auto 1rem}
 .detail-hero-inner h1{font-size:clamp(2.2rem,5.5vw,3.4rem)}
 .detail-thrill{display:inline-flex;align-items:center;gap:.6rem;margin-top:1.2rem;font-weight:600;background:rgba(255,255,255,.14);padding:.5rem 1rem;border-radius:999px}
 .thrill{display:inline-flex;gap:.15rem}

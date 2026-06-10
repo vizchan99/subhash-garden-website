@@ -115,14 +115,13 @@ export const ATTRACTIONS = [
       "The Multistation is a multi-level splash fort built for families: a climbing structure threaded with mini-slides, water cannons, tipping mechanisms and fountains. The centrepiece is a giant bucket that fills over a few minutes and then dumps on everyone below — you'll hear the countdown bell across the park.",
     thrill: 2,
     stats: [
-      { k: "Play stations", v: "14" },
+      { k: "Play station", v: "1" },
       { k: "Giant bucket", v: "1,000 L" },
       { k: "Best for", v: "ages 3–12" },
     ],
     features: [
       { name: "The big bucket", desc: "A 1,000-litre tipping bucket that fills, rings, and soaks the whole base — the park's loudest cheer." },
       { name: "Mini-slides", desc: "Short, gentle slides woven through the structure for kids not yet tall enough for the main tower." },
-      { name: "Water cannons", desc: "Aimable jets on every level so the chaos is entirely in your hands." },
       { name: "Fountains & sprays", desc: "Ground-level jets and arches for the smallest visitors to splash safely on the flat." },
     ],
     tips: [
