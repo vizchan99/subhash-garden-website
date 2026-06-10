@@ -22,6 +22,7 @@ export default function Nav({ route, go, onEnquire }) {
         {ATTRACTIONS.map((a) => (
           <button key={a.id} onClick={() => { go(a.id); close(); }} data-active={route === a.id}>{a.nav}</button>
         ))}
+        <button onClick={() => { go("pricing"); close(); }} data-active={route === "pricing"}>Pricing</button>
         <button className="enquire-btn" onClick={() => { onEnquire(null); close(); }}>Enquire <ArrowRight size={16} /></button>
       </nav>
     </header>

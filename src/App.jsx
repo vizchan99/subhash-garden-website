@@ -7,8 +7,9 @@ import Home from "./pages/Home.jsx";
 import AttractionPage from "./pages/AttractionPage.jsx";
 import Enquiry from "./pages/Enquiry.jsx";
 import Admin from "./pages/Admin.jsx";
+import Pricing from "./pages/Pricing.jsx";
 
-const ROUTES = ["home", "slides", "rain-dance", "wave-pool", "multistation", "enquiry", "admin"];
+const ROUTES = ["home", "slides", "rain-dance", "wave-pool", "multistation", "enquiry", "pricing", "admin"];
 
 export default function App() {
   const [route, setRoute] = useState("home");
@@ -32,6 +33,7 @@ export default function App() {
   let content;
   if (route === "home") content = <Home go={go} onEnquire={onEnquire} />;
   else if (route === "enquiry") content = <Enquiry prefill={prefill} />;
+  else if (route === "pricing") content = <Pricing onEnquire={onEnquire} />;
   else if (route === "admin") content = <Admin />;
   else if (ATTRACTION_BY_ID[route]) content = <AttractionPage data={ATTRACTION_BY_ID[route]} onEnquire={onEnquire} />;
   else content = <Home go={go} onEnquire={onEnquire} />;
